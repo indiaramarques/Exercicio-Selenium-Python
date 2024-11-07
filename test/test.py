@@ -16,7 +16,7 @@ BASE_DIR = os.path.dirname(PROJECTROOT)
 # Cria uma instância de `Options`, que permite configurar opções para o navegador Chrome.
 chrome_options = Options()
 
-# Adiciona uma opção experimental para o Chrome que mantém o navegador aberto após a execução do script Selenium, 
+# Adiciona uma opção experimental para o Chrome que mantém o navegador aberto após a execução do script Selenium.
 chrome_options.add_experimental_option("detach", True)  
 
 # Inicializa uma nova instância do navegador Chrome, aplicando as opções definidas em chrome_options.
